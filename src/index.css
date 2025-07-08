@@ -15,6 +15,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  margin: 10px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
