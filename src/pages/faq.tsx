@@ -2,7 +2,7 @@ export default function FAQ() {
     return (
         <div
             style={{
-                display: "flex",
+                // display: "flex",
                 justifyContent: "centre",
                 alignItems: "centre",
                 height: "100vh",

@@ -2,7 +2,7 @@ export default function About() {
     return (
         <div
             style={{
-                display: "flex",
+                // display: "flex",
                 justifyContent: "centre",
                 alignItems: "centre",
                 height: "100vh",
