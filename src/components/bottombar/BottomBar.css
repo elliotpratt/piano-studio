@@ -1,0 +1,13 @@
+.bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  height: var(--bottom-bar-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: lightgray;
+  box-sizing: border-box;
+  padding: 0 12px;
+}

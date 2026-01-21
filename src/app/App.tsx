@@ -1,18 +1,16 @@
 // import { useState } from 'react'
 // import reactLogo from '../assets/react.svg'
-import Navbar from '../components/navbar/navbar';
-import './App.css';
+import Navbar from '../components/navbar/Navbar';
+import Bottombar from '../components/bottombar/BottomBar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from '../pages/about';
-import Contact from '../pages/contact';
-import FAQ from '../pages/faq';
-import Lessons from '../pages/lessons';
-import StudioPolicy from '../pages/studio_policy';
-import Home from '../pages';
+import About from '../pages/About';
+import Contact from '../pages/Contact';
+import FAQ from '../pages/FAQ';
+import Lessons from '../pages/Lessons';
+import StudioPolicy from '../pages/StudioPolicy';
+import Home from '../pages/HomePage';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
     <BrowserRouter>
@@ -25,6 +23,7 @@ function App() {
         <Route path="/lessons" element={<Lessons />} />
         <Route path="/studio_policy" element={<StudioPolicy />} />
       </Routes>
+      <Bottombar />
     </BrowserRouter>
     </>
   );

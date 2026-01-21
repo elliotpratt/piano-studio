@@ -1,0 +1,20 @@
+.navbar {
+  background-color: rgb(233, 239, 241);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: padding 300ms ease;
+  will-change: padding;
+}
+
+.navbar-scroll {
+  padding: 8px; /* slightly larger than 5px for smoother visual step */
+}
+
+.links {
+  margin: 25px;
+}
